@@ -1,18 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package vonal;
 
-/**
- *
- * @author User
- */
 public class Vonal {
-
-    /**
-     * @param args the command line arguments
-     */
+    
+    private static final int MIN_HOSSZ = 1;
+    private static final int ALAP_ELTOLAS = 0;
+    private static final String ALAP_SZIN = "fekete";
+    private static final String ALAP_STILUS = "folytonos";
+    
+    private final int hossz;
+    private int eltolas;
+    private String szin;
+    private String stilus;
+    
+    
     public static void main(String[] args) {
         // TODO code application logic here
     }
